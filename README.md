@@ -1,6 +1,6 @@
 # React-native-single-prompt
 
-Sample
+Prompt component with single input field
 
 <p float="left">
 <img width="320" alt="image" src="https://user-images.githubusercontent.com/40762724/173159583-09aba265-8973-4a86-a1e3-278b5ad480a5.png">
@@ -11,7 +11,7 @@ Sample
 
 
 Usage
-1. Installation
+1. <b>Installation</b>
 ```
 yarn add react-native-single-prompt
 ```
@@ -20,8 +20,8 @@ or
 npm i react-native-single-prompt
 ```
 
-2. Code sample<br>
-I highely advise controlling prompt with Modal from core react-native API
+2. <b>Code sample</b><br>
+I highely advise controlling prompt with <b>Modal</b> from core react-native API
 ```
 import Prompt from 'react-native-single-prompt';
 import {Modal} from 'react-native';
