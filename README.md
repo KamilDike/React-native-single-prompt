@@ -1,5 +1,7 @@
 # React-native-single-prompt
 
+[![badge](https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Npm-logo.svg/100px-Npm-logo.svg.png)](https://www.npmjs.com/package/react-native-single-prompt)
+
 Prompt component with single input field
 ```
 import Prompt from 'react-native-single-prompt';
