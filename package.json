@@ -1,6 +1,6 @@
 {
   "name": "react-native-single-prompt",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React native prompt component",
   "main": "Prompt.tsx",
   "private": false,
