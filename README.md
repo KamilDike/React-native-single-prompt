@@ -1,6 +1,9 @@
 # React-native-single-prompt
 
 Prompt component with single input field
+```
+import Prompt from 'react-native-single-prompt';
+```
 
 <p float="left">
 <img width="320" alt="image" src="https://user-images.githubusercontent.com/40762724/173159583-09aba265-8973-4a86-a1e3-278b5ad480a5.png">
