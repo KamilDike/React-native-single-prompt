@@ -1,12 +1,18 @@
 {
   "name": "react-native-single-prompt",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "description": "React native prompt component",
   "main": "Prompt.tsx",
+  "scripts": {
+    "pack": "npm pack",
+    "prettier": "prettier --write ."
+  },
   "private": false,
   "keywords": [
     "react-native-prompt",
-    "react-native-single-prompt"
+    "react-native-single-prompt",
+    "component",
+    "prompt"
   ],
   "author": "Kamil Dike",
   "license": "MIT",
@@ -17,5 +23,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/KamilDike/React-native-single-prompt.git"
+  },
+  "devDependencies": {
+    "prettier": "2.7.1"
   }
 }
