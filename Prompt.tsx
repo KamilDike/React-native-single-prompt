@@ -10,12 +10,12 @@ import {PromptStyles} from './PromptStyles';
 
 interface PromptProps {
   name: string;
-  callback: (value: string | undefined) => void;
+  submit: (value: string | undefined) => void;
   exit: () => void;
   backgroundOpacity?: number;
 }
 
-const Prompt = ({name, callback, exit}: PromptProps) => {
+const Prompt = ({name, submit, exit, backgroundOpacity = 0.5}: PromptProps) => {
   const [text, setText] = useState<string>();
 
   return (
@@ -41,7 +41,8 @@ const Prompt = ({name, callback, exit}: PromptProps) => {
               <View style={PromptStyles.divider} />
               <TouchableOpacity
                 style={PromptStyles.button}
-                onPress={() => callback(text)}>
+                onPress={() => submit(text)}
+              >
                 <Text>OK</Text>
               </TouchableOpacity>
             </View>
