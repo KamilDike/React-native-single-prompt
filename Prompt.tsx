@@ -4,7 +4,7 @@ import {
   TextInput,
   TouchableOpacity,
   TouchableWithoutFeedback,
-  View,
+  View
 } from 'react-native';
 import {PromptStyles} from './PromptStyles';
 
@@ -12,6 +12,7 @@ interface PromptProps {
   name: string;
   callback: (value: string | undefined) => void;
   exit: () => void;
+  backgroundOpacity?: number;
 }
 
 const Prompt = ({name, callback, exit}: PromptProps) => {
@@ -19,7 +20,7 @@ const Prompt = ({name, callback, exit}: PromptProps) => {
 
   return (
     <TouchableWithoutFeedback onPress={exit}>
-      <View style={PromptStyles.container}>
+      <View style={PromptStyles.container(backgroundOpacity)}>
         <TouchableWithoutFeedback>
           <View style={PromptStyles.modal}>
             <View style={PromptStyles.partContainer}>
