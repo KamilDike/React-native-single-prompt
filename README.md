@@ -3,6 +3,7 @@
 [![badge](https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Npm-logo.svg/100px-Npm-logo.svg.png)](https://www.npmjs.com/package/react-native-single-prompt)
 
 Prompt component with single input field
+
 ```
 import Prompt from 'react-native-single-prompt';
 ```
@@ -16,17 +17,22 @@ import Prompt from 'react-native-single-prompt';
 ![Simulator Screen Recording - iPhone 13 - 2022-06-11 at 11 32 20](https://user-images.githubusercontent.com/40762724/173182389-2fc87d29-50cc-47b1-a5ba-39828ee5f169.gif)
 
 Usage
+
 1. <b>Installation</b>
+
 ```
 yarn add react-native-single-prompt
 ```
+
 or
+
 ```
 npm i react-native-single-prompt
 ```
 
 2. <b>Code sample</b><br>
-I highely advise controlling prompt with <b>Modal</b> from core react-native API
+   I highely advise controlling prompt with <b>Modal</b> from core react-native API
+
 ```
 import Prompt from 'react-native-single-prompt';
 import {Modal} from 'react-native';
@@ -48,3 +54,6 @@ const App = () => {
   );
 };
 ```
+
+3. <b>Optional props</b><br/>
+   **backgroundOpacity**={value: number}, value in range: **<0;1>**, default = **0.5**
