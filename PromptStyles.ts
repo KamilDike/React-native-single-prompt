@@ -21,7 +21,8 @@ export const PromptStyles = StyleSheet.create({
     backgroundColor: Colors.gray
   },
   textInput: {
-    flex: 1
+    flex: 1,
+    color: 'black'
   },
   buttonsContainer: {
     flexDirection: 'row',
